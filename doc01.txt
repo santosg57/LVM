@@ -2,3 +2,32 @@
 https://es.wikipedia.org/wiki/Logical_Volume_Manager
 
 https://es.wikipedia.org/wiki/RAID#RAID_0:_Conjunto_de_discos_divididos_sin_tolerancia_a_fallos_(No_Redundante)
+
+https://groups.google.com/forum/#!topic/xnat_discussion/PYeIxdNVr44
+
+First, thank you very much for all of your help. We are getting close to having a functioning XNAT.
+
+ 
+
+One major issue for me is that we are expecting lots of data. My IT folks tell me that it is unwise to have a single Linux RAID file system span more than 9 physical disks because the time to rebuild after failure becomes unsafe. So, I have a number of separate RAID partitions in order to gain sufficient storage for the projects. I need to find a way to have XNAT distribute its data across these partitions.
+
+ 
+
+Has anyone else run across these problems? Suggestions (either within XNAT or using a Linux based solution) would be most welcome.
+.==============================
+Our friends at Iowa have some good experience building out custom big storage, and I hope they'll chime in.  A good option that they've promoted is creating RAID 5 (or maybe 6) pools and then aggregating with OpenSolaris.  We're actually planning to roll out a backup storage system using this approach.  Another option is to invest is a scale-out NAS system like Isilon, Bluearc, Netapp, etc. More expensive though.
+
+I'm forwarding to our IT guys who can reply off list if they have additional thoughts and they can send you quotes for the backup system we're purchasing.
+
+-Dan
+.=======================================
+https://github.com/chef-cookbooks/lvm
+.=======================================
+https://groups.google.com/forum/#!msg/xnat_discussion/AzY73WNN7FY/atqwC3Qbo40J
+.=======================================
+https://help.ubuntu.com/community/SettingUpLVM-WithoutACleanInstall
+
+.=======================================
+
+
+
