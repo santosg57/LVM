@@ -1,0 +1,4 @@
+
+https://es.wikipedia.org/wiki/Logical_Volume_Manager
+
+https://es.wikipedia.org/wiki/RAID#RAID_0:_Conjunto_de_discos_divididos_sin_tolerancia_a_fallos_(No_Redundante)
