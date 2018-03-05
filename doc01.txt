@@ -30,4 +30,15 @@ https://help.ubuntu.com/community/SettingUpLVM-WithoutACleanInstall
 .=======================================
 
 
+http://www.ubuntu-es.org/node/40557#.Wp21DpPwYUE
+
+https://www.howtogeek.com/211937/how-to-use-lvm-on-ubuntu-for-easy-partition-resizing-and-snapshots/
+
+http://www.geoffstratton.com/expand-hard-disk-ubuntu-lvm
+
+https://www.debuntu.org/how-to-install-ubuntu-on-lvm-partitions/
+
+https://unix.stackexchange.com/questions/339011/how-do-i-mount-an-lvm-partition
+
+
 
